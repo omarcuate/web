@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgi, Time, 'Times New Roman', seri;
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 40;
+    max-width: 20%;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo{
+    color: aqua;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+header{
+    width: 100%;
+    height: 1000px;
+    background: hsla(155, 85%, 54%, 0.575);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(197, 67%, 58%, 0.568), hsla(155, 80%, 56%, 0.657));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(197, 66%, 57%, 0.589), hsla(155, 80%, 56%, 0.507)), url(../pag1/img/fondo.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+nav{
+    text-align: right;
+    padding: 30px 50px  0 0;
+}
+nav > a{
+    color: aquamarine;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;  
+}
+
+
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .texto{
+    display: flex;
+    height: 439px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.texto h1{
+    font-size: 50px;
+    color: azure;
+}
+.texto h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: azure;
+}
+
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+main.sobre-nosotros{
+    padding: 30 0 60px 0;
+}
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagen-about-us{
+    width: 48%;
+}
+   
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+.contenido-textos h3 span{
+    background: burlywood;
+    color: floralwhite;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 cadetblue;
+    margin-right: 6px;
+}
+
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.potafolio{
+    background: antiquewhite;
+}
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+ 
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow:0 0 6px 0 aquamarine;
+}
+
+.imagen-port >img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(155, 85%, 54%, 0.575);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.hover-galeria img{
+    width: 50px;
+}
+.hover-galeria p{
+    color: ivory;
+}
+
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.cards .card{
+    color: khaki;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-content: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: lavender;
+}

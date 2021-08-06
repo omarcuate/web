@@ -1,0 +1,73 @@
+*{
+    margin: 90;
+    padding: 90;
+    box-sizing: 90;
+} 
+
+body{
+    font-family: 
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-height: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: rgb(153, 236, 0);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
